@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Documentos\\3er Semestre\\Programaci\u00F3n 2\\C#_Proyectos\\WinFormsApp_Tabla\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE13DC81-9199-4E58-8DB7-BE387D883EF0}|WinFormsApp_Tabla\\WinFormsApp_Tabla.csproj|c:\\users\\admin\\onedrive\\documentos\\3er semestre\\programaci\u00F3n 2\\c#_proyectos\\winformsapp_tabla\\winformsapp_tabla\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE13DC81-9199-4E58-8DB7-BE387D883EF0}|WinFormsApp_Tabla\\WinFormsApp_Tabla.csproj|solutionrelative:winformsapp_tabla\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE13DC81-9199-4E58-8DB7-BE387D883EF0}|WinFormsApp_Tabla\\WinFormsApp_Tabla.csproj|C:\\Users\\Admin\\OneDrive\\Documentos\\3er Semestre\\Programaci\u00F3n 2\\C#_Proyectos\\WinFormsApp_Tabla\\winformsapp_tabla\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE13DC81-9199-4E58-8DB7-BE387D883EF0}|WinFormsApp_Tabla\\WinFormsApp_Tabla.csproj|solutionrelative:winformsapp_tabla\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documentos\\3er Semestre\\Programaci\u00F3n 2\\C#_Proyectos\\WinFormsApp_Tabla\\WinFormsApp_Tabla\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Tabla\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documentos\\3er Semestre\\Programaci\u00F3n 2\\C#_Proyectos\\WinFormsApp_Tabla\\WinFormsApp_Tabla\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp_Tabla\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:54:01.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documentos\\3er Semestre\\Programaci\u00F3n 2\\C#_Proyectos\\WinFormsApp_Tabla\\WinFormsApp_Tabla\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp_Tabla\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documentos\\3er Semestre\\Programaci\u00F3n 2\\C#_Proyectos\\WinFormsApp_Tabla\\WinFormsApp_Tabla\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinFormsApp_Tabla\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:38:35.218Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
