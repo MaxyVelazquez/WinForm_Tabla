@@ -15,7 +15,7 @@ namespace WinFormsApp_Tabla
         private void MuestraTabla()
         {
             int n = Convert.ToInt32(this.textBoxNumero.Text);
-            string tabla= "";
+            string tabla = "";
             for (int i = 1; i <= 10; i++)
             {
                 tabla = tabla + n + "x" + i + "=" + (n * i) + "\n";
@@ -31,6 +31,12 @@ namespace WinFormsApp_Tabla
         private void textBoxNumero_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtCommit_TextChanged(object sender, EventArgs e)
+        {
+            string commit = "commit";
+            this.txtCommit.Text = commit;
         }
     }
 }

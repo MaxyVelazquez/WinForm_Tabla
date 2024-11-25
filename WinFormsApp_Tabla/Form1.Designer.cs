@@ -29,18 +29,20 @@
         private void InitializeComponent()
         {
             panelPrincipal = new Panel();
+            label1 = new Label();
             richTextBoxTabla = new RichTextBox();
             buttonVer = new Button();
             textBoxNumero = new TextBox();
             labelPregunta = new Label();
             labelTitulo = new Label();
-            label1 = new Label();
+            txtCommit = new TextBox();
             panelPrincipal.SuspendLayout();
             SuspendLayout();
             // 
             // panelPrincipal
             // 
             panelPrincipal.BackColor = Color.FromArgb(128, 128, 255);
+            panelPrincipal.Controls.Add(txtCommit);
             panelPrincipal.Controls.Add(label1);
             panelPrincipal.Controls.Add(richTextBoxTabla);
             panelPrincipal.Controls.Add(buttonVer);
@@ -51,6 +53,16 @@
             panelPrincipal.Name = "panelPrincipal";
             panelPrincipal.Size = new Size(632, 442);
             panelPrincipal.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.FromArgb(224, 224, 224);
+            label1.Location = new Point(262, 19);
+            label1.Name = "label1";
+            label1.Size = new Size(218, 15);
+            label1.TabIndex = 5;
+            label1.Text = "Maxy Emiliano Velazquez Cuellar 301026";
             // 
             // richTextBoxTabla
             // 
@@ -99,15 +111,13 @@
             labelTitulo.TabIndex = 0;
             labelTitulo.Text = "Tabla de multiplicar";
             // 
-            // label1
+            // txtCommit
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.FromArgb(224, 224, 224);
-            label1.Location = new Point(262, 19);
-            label1.Name = "label1";
-            label1.Size = new Size(218, 15);
-            label1.TabIndex = 5;
-            label1.Text = "Maxy Emiliano Velazquez Cuellar 301026";
+            txtCommit.Location = new Point(463, 146);
+            txtCommit.Name = "txtCommit";
+            txtCommit.Size = new Size(100, 23);
+            txtCommit.TabIndex = 6;
+            txtCommit.TextChanged += txtCommit_TextChanged;
             // 
             // Form1
             // 
@@ -131,5 +141,6 @@
         private Label labelPregunta;
         private RichTextBox richTextBoxTabla;
         private Label label1;
+        private TextBox txtCommit;
     }
 }

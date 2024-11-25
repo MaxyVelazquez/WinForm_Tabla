@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsApp_Tabla")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+050d1be629da4fc354f232fd4e37397ed72a90ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsApp_Tabla")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsApp_Tabla")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
