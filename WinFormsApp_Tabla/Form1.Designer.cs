@@ -29,19 +29,21 @@
         private void InitializeComponent()
         {
             panelPrincipal = new Panel();
+            txtCommit = new TextBox();
             label1 = new Label();
             richTextBoxTabla = new RichTextBox();
             buttonVer = new Button();
             textBoxNumero = new TextBox();
             labelPregunta = new Label();
             labelTitulo = new Label();
-            txtCommit = new TextBox();
+            label2 = new Label();
             panelPrincipal.SuspendLayout();
             SuspendLayout();
             // 
             // panelPrincipal
             // 
             panelPrincipal.BackColor = Color.FromArgb(128, 128, 255);
+            panelPrincipal.Controls.Add(label2);
             panelPrincipal.Controls.Add(txtCommit);
             panelPrincipal.Controls.Add(label1);
             panelPrincipal.Controls.Add(richTextBoxTabla);
@@ -53,6 +55,14 @@
             panelPrincipal.Name = "panelPrincipal";
             panelPrincipal.Size = new Size(632, 442);
             panelPrincipal.TabIndex = 0;
+            // 
+            // txtCommit
+            // 
+            txtCommit.Location = new Point(463, 146);
+            txtCommit.Name = "txtCommit";
+            txtCommit.Size = new Size(100, 23);
+            txtCommit.TabIndex = 6;
+            txtCommit.TextChanged += txtCommit_TextChanged;
             // 
             // label1
             // 
@@ -111,13 +121,14 @@
             labelTitulo.TabIndex = 0;
             labelTitulo.Text = "Tabla de multiplicar";
             // 
-            // txtCommit
+            // label2
             // 
-            txtCommit.Location = new Point(463, 146);
-            txtCommit.Name = "txtCommit";
-            txtCommit.Size = new Size(100, 23);
-            txtCommit.TabIndex = 6;
-            txtCommit.TextChanged += txtCommit_TextChanged;
+            label2.AutoSize = true;
+            label2.Location = new Point(469, 202);
+            label2.Name = "label2";
+            label2.Size = new Size(49, 15);
+            label2.TabIndex = 7;
+            label2.Text = "commit";
             // 
             // Form1
             // 
@@ -142,5 +153,6 @@
         private RichTextBox richTextBoxTabla;
         private Label label1;
         private TextBox txtCommit;
+        private Label label2;
     }
 }
